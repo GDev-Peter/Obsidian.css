@@ -1,0 +1,53 @@
+/* Trafic Light Window Control - MacOS for linux
+Author: GDev-Peter
+Licence: free in every way =D
+Dependencies: obsidian frame
+*/
+.titlebar-button-container.mod-right {
+    right: auto;
+}
+.titlebar-button-container.mod-left {
+    right: 0;
+    left: auto;
+}
+.mod-linux .titlebar-button{
+    padding: 0 3px;
+    border-radius: 50%;
+}
+.titlebar-button-container.mod-right{
+    margin-left: 4px;
+}
+.titlebar-button {
+    margin: 10px;
+}
+.mod-close{
+    background-color:#EC7C87;
+    background-image:url:"";
+}
+.mod-maximize{
+    background-color:#7CD5A2;
+}
+.mod-minimize{
+    background-color:#FAB77C;
+}
+.mod-close path{
+    color: #EC7C87;
+}
+.mod-maximize rect{
+    color: #7CD5A2;
+}
+.mod-maximize path{
+    color: #7CD5A2;
+}
+.mod-minimize rect{
+    color: #FAB77C;
+}
+
+.mod-left-split .workspace-tab-header-container-inner {
+    padding-left: 25%
+}
+
+.workspace-tabs.mod-top-left-space .workspace-tab-header-container{
+        padding-left: 68px;
+}
+
